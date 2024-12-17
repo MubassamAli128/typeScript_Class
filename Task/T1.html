@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="flex items-center justify-between w-full">
+        <div class="p-2 flex flex-col items-center justify-between w-[50%] h-screen bg-slate-100">
+            <div class="flex items-center justify-between w-full">
+                <div class="w-5 h-5 p-5 rounded-full bg-blue-500"></div>
+                <div>
+                    New to Sako?
+                    <button id="switch_button" class="font-semibold bg-gray-200 px-2 py-1 rounded-lg">Register</button>
+                </div>
+            </div>
+            <div>
+                <div id="login_Block" class="flex flex-col items-center justify-center">
+                    <div class="bg-gray-400 rounded-full w-20 h-20  flex items-center justify-center ">
+                        <i class="text-2xl fa-solid fa-user"></i>
+                    </div>
+                    <h1 class="text-2xl font-semibold">Login to your account</h1>
+                    <p class="text-md text-gray-300">Enter your details to login.</p>
+                    <br>
+                    <form action="" class="w-full">
+                        <h2>Email</h2>
+                        <input type="email" name="" id="login_Email" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-200" required>
+                        <br>
+                        <br>
+                        <h2>Password</h2>
+                        <input type="password" name="" id="login_Password" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-200" required>
+                        <br>
+                        <br>
+                        <a class="float-right underline" href="#">forget password?</a>
+                        <br>
+                        <br>
+                        <input type="submit" name="" id="Login" value="Login" class="w-full p-2 text-white bg-blue-500 rounded-lg">
+                    </form>
+                </div>
+                <div id="register_Block" class="hidden flex-col items-center justify-center">
+                    <div class="bg-gray-400 rounded-full w-20 h-20  flex items-center justify-center ">
+                        <i class="text-2xl fa-solid fa-user"></i>
+                    </div>
+                    <h1 class="text-2xl font-semibold">Register to your account</h1>
+                    <p class="text-md text-gray-300">Enter your details to Register.</p>
+                    <br>
+                    <form action="" class="w-full">
+                        <h2>Email</h2>
+                        <input type="email" name="" id="register_Email" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-200" required>
+                        <br>
+                        <br>
+                        <h2>Password</h2>
+                        <input type="password" name="" id="register_Password" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-200" required>
+                        <br>
+                        <br>
+                        <a class="float-right underline" href="#">forget password?</a>
+                        <br>
+                        <br>
+                        <input type="submit" name="" id="Register" value="Register" class="w-full p-2 text-white bg-blue-500 rounded-lg">
+                    </form>
+                </div>
+            </div>
+            <div class="flex items-center justify-between w-full">
+                <p>© 2023 Sako Agency</p>
+                <select name="" id="" class="bg-transparent">
+                    <option value="">ENG</option>
+                    <option value="">ENG</option>
+                    <option value="">ENG</option>
+                    <option value="">ENG</option>
+                </select>
+                <!-- <option value=""></option> -->
+            </div>
+        </div>
+        <div class="w-[50%]">
+            <img src="./image.webp" class="h-screen w-full rounded-l-lg" alt="">
+        </div>
+    </div>
+    <script src="./T1.js"></script>
+</body>
+</html>
